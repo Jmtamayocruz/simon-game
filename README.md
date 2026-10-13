@@ -3,7 +3,6 @@
 Un jeu de mémoire interactif et rétroviseur basé sur le fameux jeu classique **Simon**, développé en JavaScript, jQuery, HTML5 et CSS3.
 
 ![Aperçu du Jeu Simon](https://via.placeholder.com/800x400.png?text=Simon+Game+Preview)
-*(Astuce : Remplace cette image par une vraie capture d'écran de ton jeu une fois le dépôt créé !)*
 
 ---
 
