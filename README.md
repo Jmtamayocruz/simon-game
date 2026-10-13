@@ -21,6 +21,38 @@ Le jeu génère une séquence aléatoire de couleurs accompagnée de sons. Le jo
 
 ---
 
+## 🛠️ Technologies Utilisées
+- **HTML5** : Structure de la page web.
+
+- **CSS3** : Design et animations (Police Google Font Press Start 2P).
+
+- **JavaScript (ES6)** : Logique du jeu et gestion de la mémoire.
+
+- **jQuery (v3.7.1)** : Manipulation simplifiée du DOM, gestion des événements clavier/clic et animations.
+
+---
+
+## 🎮 Comment Jouer ?
+**Démarrage** : Appuie sur n'importe quelle touche de ton clavier pour démarrer la partie.
+
+**Mémorisation** : Observe la couleur qui clignote et écoute le son associé.
+
+**Action** : Clique sur le bouton correspondant.
+
+**Progression** : Si la séquence est correcte, tu passes au niveau suivant et une nouvelle couleur s'ajoute.
+
+**Game Over** : Si tu te trompes de bouton, l'écran clignote en rouge et tu peux réappuyer sur une touche pour recommencer du Level 0.
+
+---
+
+## 👤 Auteur & Crédits
+
+- **Développé par** : Joaquin (https://github.com/Jmtamayocruz)
+
+- **Origine du projet** : Réalisé dans le cadre d'un exercice pratique issu du cours de l'App Brewery London, suivi durant la master class The Complete Web Development Bootcamp par Angela Yu sur Udemy.
+
+---
+
 ## 📁 Structure du Projet
 
 ```text
@@ -34,23 +66,3 @@ Le jeu génère une séquence aléatoire de couleurs accompagnée de sons. Le jo
     ├── green.mp3
     ├── yellow.mp3
     └── wrong.mp3
-
-🛠️ Technologies Utilisées
-HTML5 : Structure de la page web.
-
-CSS3 : Design et animations (Police Google Font Press Start 2P).
-
-JavaScript (ES6) : Logique du jeu et gestion de la mémoire.
-
-jQuery (v3.7.1) : Manipulation simplifiée du DOM, gestion des événements clavier/clic et animations.
-
-🎮 Comment Jouer ?
-Démarrage : Appuie sur n'importe quelle touche de ton clavier pour démarrer la partie.
-
-Mémorisation : Observe la couleur qui clignote et écoute le son associé.
-
-Action : Clique sur le bouton correspondant.
-
-Progression : Si la séquence est correcte, tu pases au niveau suivant et une nouvelle couleur s'ajoute.
-
-Game Over : Si tu te trompes de bouton, l'écran clignote en rouge et tu peux réappuyer sur une touche pour recommencer du Level 0.
