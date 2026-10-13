@@ -27,8 +27,9 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
     startGame = false;
-    startOver();
+    
   }
+  startOver();
 }
 
 function nextSequence() {
