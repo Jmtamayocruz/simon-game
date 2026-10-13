@@ -50,7 +50,7 @@ function playSound(name) {
 
 
 
-$("button").on("click", function handler(){
+$(".btn").on("click", function handler(){
   let userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
   animatePress(userChosenColour);
