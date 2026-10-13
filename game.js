@@ -27,9 +27,9 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
     startGame = false;
-    
+     startOver();
   }
-  startOver();
+ 
 }
 
 function nextSequence() {
@@ -74,5 +74,4 @@ function startOver () {
   userClickedPattern = [];
   startGame = false;
   level = 0;
-  $("#level-title").text("Level 0");
 }
